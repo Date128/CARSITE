@@ -2,7 +2,7 @@
 using Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BackendApi.Controllers
+namespace CARSITEAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

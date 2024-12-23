@@ -63,8 +63,6 @@ public partial class CarsiteContext : DbContext
     public virtual DbSet<UserProfile> UserProfiles { get; set; }
 
 
-    //Server=EMPIRE;Database=CARSITE;Trusted_Connection=True;TrustServerCertificate=True;0
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Attribute>(entity =>

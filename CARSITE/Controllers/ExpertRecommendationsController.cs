@@ -3,7 +3,7 @@ using Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
-namespace BackendApi.Controllers
+namespace CARSITEAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

@@ -16,7 +16,8 @@ namespace CARSITE
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            builder.Services.AddDbContext<CarsiteContext>(options => options.UseSqlServer("Server=EMPIRE;Database=CARSITE;Trusted_Connection=True;TrustServerCertificate=True;"));
+            builder.Services.AddDbContext<CarsiteContext>(
+                options => options.UseSqlServer(builder.Configuration["ConnectionString"]));
             builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
             builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddScoped<ICarServices, CarService>();
@@ -49,8 +50,14 @@ namespace CARSITE
 
             var app = builder.Build();
 
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                var context = services.GetRequiredService<CarsiteContext>();
+                context.Database.Migrate();
+            }
             // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
+            //   if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
