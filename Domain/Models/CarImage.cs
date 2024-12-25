@@ -1,17 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Domain.Models;
-
-public partial class CarImage
+namespace Domain.Models
 {
-    public int ImageId { get; set; }
+    /// Модель данных для изображения автомобиля (CarImage).
+    public partial class CarImage
+    {
+        /// Уникальный идентификатор изображения.
+        public int ImageId { get; set; }
 
-    public int? CarId { get; set; }
+        /// Идентификатор автомобиля, связанного с изображением.
+        public int? CarId { get; set; }
 
-    public string ImageUrl { get; set; } = null!;
+        /// URL-адрес изображения.
+        public string ImageUrl { get; set; } = null!;
 
-    public string? Description { get; set; }
+        /// Описание изображения (необязательное поле).
+        public string? Description { get; set; }
 
-    public virtual Car? Car { get; set; }
+        /// Связанный автомобиль.
+        public virtual Car? Car { get; set; }
+    }
 }

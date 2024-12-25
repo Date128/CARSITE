@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
+    /// Интерфейс репозитория для работы с записями о техническом обслуживании.
+    /// Наследует базовые методы работы с сущностями из IRepositoryBase<MaintenanceRecord>.
     public interface IMaintenanceRecordRepository : IRepositoryBase<MaintenanceRecord>
     {
+        
     }
 }

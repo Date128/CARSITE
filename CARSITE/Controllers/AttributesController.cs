@@ -6,29 +6,42 @@ using MyAttribute = Domain.Models.Attribute;
 
 namespace CARSITEAPI.Controllers
 {
+    /// Контроллер для работы с атрибутами.
     [Route("api/[controller]")]
     [ApiController]
     public class AttributesController : ControllerBase
     {
         private readonly IAttributeServise _attributeService;
 
+        /// Конструктор контроллера AttributesController.
+        /// <param name="attributeService">Сервис для работы с атрибутами.</param>
         public AttributesController(IAttributeServise attributeService)
         {
             _attributeService = attributeService;
         }
 
+        /// Получает список всех атрибутов.
+        /// <returns>Список атрибутов.</returns>
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            return Ok(await _attributeService.GetAll());
+            var attributes = await _attributeService.GetAll();
+            return Ok(attributes);
         }
 
+        /// Получает атрибут по его идентификатору.
+        /// <param name="id">Идентификатор атрибута.</param>
+        /// <returns>Атрибут.</returns>
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            return Ok(await _attributeService.GetById(id));
+            var attribute = await _attributeService.GetById(id);
+            return Ok(attribute);
         }
 
+        /// Добавляет новый атрибут.
+        /// <param name="attribute">Модель атрибута для добавления.</param>
+        /// <returns>Результат операции.</returns>
         [HttpPost]
         public async Task<IActionResult> Add(MyAttribute attribute)
         {
@@ -36,6 +49,9 @@ namespace CARSITEAPI.Controllers
             return Ok();
         }
 
+        /// Обновляет существующий атрибут.
+        /// <param name="attribute">Модель атрибута для обновления.</param>
+        /// <returns>Результат операции.</returns>
         [HttpPut]
         public async Task<IActionResult> Update(MyAttribute attribute)
         {
@@ -43,6 +59,9 @@ namespace CARSITEAPI.Controllers
             return Ok();
         }
 
+        /// Удаляет атрибут по его идентификатору.
+        /// <param name="id">Идентификатор атрибута.</param>
+        /// <returns>Результат операции.</returns>
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

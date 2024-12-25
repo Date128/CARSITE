@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
+    /// Интерфейс репозитория для работы с уведомлениями.
+    /// Наследует базовые методы работы с сущностями из IRepositoryBase<Notification>.
     public interface INotificationRepository : IRepositoryBase<Notification>
     {
+    
     }
 }

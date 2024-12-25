@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
+    /// Интерфейс репозитория для работы с связями постов и тегов.
+    /// Наследует базовые методы работы с сущностями из IRepositoryBase<PostTag>.
     public interface IPostTagRepository : IRepositoryBase<PostTag>
     {
+     
     }
 }

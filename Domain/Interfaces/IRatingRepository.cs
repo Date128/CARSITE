@@ -7,7 +7,11 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
+    /// Интерфейс репозитория для работы с рейтингами.
+    /// Наследует базовые методы работы с сущностями из IRepositoryBase<Rating>.
     public interface IRatingRepository : IRepositoryBase<Rating>
     {
+      
+
     }
 }

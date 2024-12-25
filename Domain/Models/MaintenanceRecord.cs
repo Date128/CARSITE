@@ -1,23 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Domain.Models;
-
-public partial class MaintenanceRecord
+namespace Domain.Models
 {
-    public int RecordId { get; set; }
+    /// Модель данных для записи обслуживания (MaintenanceRecord).
+    public partial class MaintenanceRecord
+    {
+        /// Уникальный идентификатор записи обслуживания.
+        public int RecordId { get; set; }
 
-    public int? CarId { get; set; }
+        /// Идентификатор автомобиля, связанного с записью обслуживания.
+        public int? CarId { get; set; }
 
-    public int? UserId { get; set; }
+        /// Идентификатор пользователя, связанного с записью обслуживания.
+        public int? UserId { get; set; }
 
-    public DateTime ServiceDate { get; set; }
+        /// Дата выполнения обслуживания.
+        public DateTime ServiceDate { get; set; }
 
-    public string Description { get; set; } = null!;
+        /// Описание выполненного обслуживания.
+        public string Description { get; set; } = null!;
 
-    public decimal Cost { get; set; }
+        /// Стоимость обслуживания.
+        public decimal Cost { get; set; }
 
-    public virtual Car? Car { get; set; }
+        /// Связанный автомобиль.
+        public virtual Car? Car { get; set; }
 
-    public virtual User? User { get; set; }
+        /// Связанный пользователь.
+        public virtual User? User { get; set; }
+    }
 }

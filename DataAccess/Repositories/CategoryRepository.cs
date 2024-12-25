@@ -3,11 +3,14 @@ using Domain.Models;
 
 namespace DataAccess.Repositories
 {
+    /// Репозиторий для работы с сущностью Category (категория).
+    /// Реализует интерфейс ICategoryRepository.
     public class CategoryRepository : RepositoryBase<Category>, ICategoryRepository
     {
-        public CategoryRepository(CarsiteContext repositoryContext) : base (repositoryContext)
+        /// Конструктор репозитория.
+        /// <param name="repositoryContext">Контекст базы данных, используемый для работы с данными.</param>
+        public CategoryRepository(CarsiteContext repositoryContext) : base(repositoryContext)
         {
-
         }
     }
 }

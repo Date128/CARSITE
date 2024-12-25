@@ -7,8 +7,11 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
+    /// Интерфейс репозитория для работы с атрибутами автомобиля.
+    /// Наследует базовые методы работы с сущностями из IRepositoryBase<CarAttribute>.
     public interface ICarAttributeRepository : IRepositoryBase<CarAttribute>
     {
+      
+
     }
 }
-

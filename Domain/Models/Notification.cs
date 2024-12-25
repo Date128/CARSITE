@@ -1,19 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Domain.Models;
-
-public partial class Notification
+namespace Domain.Models
 {
-    public int NotificationId { get; set; }
+    /// Модель данных для уведомления (Notification).
+    public partial class Notification
+    {
+        /// Уникальный идентификатор уведомления.
+        public int NotificationId { get; set; }
 
-    public int? UserId { get; set; }
+        /// Идентификатор пользователя, связанного с уведомлением.
+        public int? UserId { get; set; }
 
-    public string Message { get; set; } = null!;
+        /// Текст уведомления.
+        public string Message { get; set; } = null!;
 
-    public DateTime? Date { get; set; }
+        /// Дата и время создания уведомления.
+        public DateTime? Date { get; set; }
 
-    public bool? IsRead { get; set; }
+        /// Флаг, указывающий, прочитано ли уведомление.
+        public bool? IsRead { get; set; }
 
-    public virtual User? User { get; set; }
+        /// Связанный пользователь.
+        public virtual User? User { get; set; }
+    }
 }

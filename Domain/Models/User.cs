@@ -1,39 +1,57 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Domain.Models;
-
-public partial class User
+namespace Domain.Models
 {
-    public int UserId { get; set; }
+    /// Модель данных для пользователя.
+    public partial class User
+    {
+        /// Уникальный идентификатор пользователя.
+        public int UserId { get; set; }
 
-    public string Username { get; set; } = null!;
+        /// Имя пользователя (логин).
+        public string Username { get; set; } = null!;
 
-    public string Email { get; set; } = null!;
+        /// Электронная почта пользователя.
+        public string Email { get; set; } = null!;
 
-    public string PasswordHash { get; set; } = null!;
+        /// Хэш пароля пользователя.
+        public string PasswordHash { get; set; } = null!;
 
-    public DateTime? RegistrationDate { get; set; }
+        /// Дата регистрации пользователя.
+        public DateTime? RegistrationDate { get; set; }
 
-    public string Role { get; set; } = null!;
+        /// Роль пользователя (например, "Admin", "User").
+        public string Role { get; set; } = null!;
 
-    public virtual ICollection<CarRental> CarRentals { get; set; } = new List<CarRental>();
+        /// Коллекция арендованных автомобилей пользователем.
+        public virtual ICollection<CarRental> CarRentals { get; set; } = new List<CarRental>();
 
-    public virtual ICollection<CarSale> CarSaleBuyers { get; set; } = new List<CarSale>();
+        /// Коллекция автомобилей, купленных пользователем.
+        public virtual ICollection<CarSale> CarSaleBuyers { get; set; } = new List<CarSale>();
 
-    public virtual ICollection<CarSale> CarSaleSellers { get; set; } = new List<CarSale>();
+        /// Коллекция автомобилей, проданных пользователем.
+        public virtual ICollection<CarSale> CarSaleSellers { get; set; } = new List<CarSale>();
 
-    public virtual ICollection<Comment> Comments { get; set; } = new List<Comment>();
+        /// Коллекция комментариев, оставленных пользователем.
+        public virtual ICollection<Comment> Comments { get; set; } = new List<Comment>();
 
-    public virtual ICollection<ExpertRecommendation> ExpertRecommendations { get; set; } = new List<ExpertRecommendation>();
+        /// Коллекция рекомендаций экспертов, связанных с пользователем.
+        public virtual ICollection<ExpertRecommendation> ExpertRecommendations { get; set; } = new List<ExpertRecommendation>();
 
-    public virtual ICollection<MaintenanceRecord> MaintenanceRecords { get; set; } = new List<MaintenanceRecord>();
+        /// Коллекция записей обслуживания, связанных с пользователем.
+        public virtual ICollection<MaintenanceRecord> MaintenanceRecords { get; set; } = new List<MaintenanceRecord>();
 
-    public virtual ICollection<Notification> Notifications { get; set; } = new List<Notification>();
+        /// Коллекция уведомлений, связанных с пользователем.
+        public virtual ICollection<Notification> Notifications { get; set; } = new List<Notification>();
 
-    public virtual ICollection<Post> Posts { get; set; } = new List<Post>();
+        /// Коллекция постов, созданных пользователем.
+        public virtual ICollection<Post> Posts { get; set; } = new List<Post>();
 
-    public virtual ICollection<Rating> Ratings { get; set; } = new List<Rating>();
+        /// Коллекция оценок, оставленных пользователем.
+        public virtual ICollection<Rating> Ratings { get; set; } = new List<Rating>();
 
-    public virtual ICollection<UserProfile> UserProfiles { get; set; } = new List<UserProfile>();
+        /// Коллекция профилей пользователя.
+        public virtual ICollection<UserProfile> UserProfiles { get; set; } = new List<UserProfile>();
+    }
 }

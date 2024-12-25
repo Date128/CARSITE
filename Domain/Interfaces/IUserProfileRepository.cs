@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
+    /// Интерфейс репозитория для работы с профилями пользователей.
+    /// Наследует базовые методы работы с сущностями из IRepositoryBase<UserProfile>.
     public interface IUserProfileRepository : IRepositoryBase<UserProfile>
     {
+        
     }
 }

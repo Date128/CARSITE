@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
+    /// Интерфейс репозитория для работы с атрибутами.
+    /// Наследует базовые методы работы с сущностями из IRepositoryBase<Attribute>.
     public interface IAttributeRepository : IRepositoryBase<Domain.Models.Attribute>
     {
+     
+
     }
 }

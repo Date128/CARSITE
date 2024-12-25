@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
+    /// Интерфейс репозитория для работы с комментариями.
+    /// Наследует базовые методы работы с сущностями из IRepositoryBase<Comment>.
     public interface ICommentRepository : IRepositoryBase<Comment>
     {
+       
     }
-
 }

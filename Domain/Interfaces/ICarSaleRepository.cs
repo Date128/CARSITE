@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
+    /// Интерфейс репозитория для работы с продажами автомобилей.
+    /// Наследует базовые методы работы с сущностями из IRepositoryBase<CarSale>.
     public interface ICarSaleRepository : IRepositoryBase<CarSale>
     {
+      
     }
 }

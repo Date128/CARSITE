@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
+    /// Интерфейс репозитория для работы с тест-драйвами.
+    /// Наследует базовые методы работы с сущностями из IRepositoryBase<TestDrife>.
     public interface ITestDrifeRepository : IRepositoryBase<TestDrife>
     {
+        
     }
 }

@@ -1,25 +1,36 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Domain.Models;
-
-public partial class CarRental
+namespace Domain.Models
 {
-    public int RentalId { get; set; }
+    /// Модель данных для аренды автомобиля (CarRental).
+    public partial class CarRental
+    {
+        /// Уникальный идентификатор аренды.
+        public int RentalId { get; set; }
 
-    public int? CarId { get; set; }
+        /// Идентификатор автомобиля, связанного с арендой.
+        public int? CarId { get; set; }
 
-    public int? UserId { get; set; }
+        /// Идентификатор пользователя, арендующего автомобиль.
+        public int? UserId { get; set; }
 
-    public DateTime StartDate { get; set; }
+        /// Дата начала аренды.
+        public DateTime StartDate { get; set; }
 
-    public DateTime EndDate { get; set; }
+        /// Дата окончания аренды.
+        public DateTime EndDate { get; set; }
 
-    public decimal PricePerDay { get; set; }
+        /// Стоимость аренды за день.
+        public decimal PricePerDay { get; set; }
 
-    public string Status { get; set; } = null!;
+        /// Статус аренды (например, "Активна", "Завершена").
+        public string Status { get; set; } = null!;
 
-    public virtual Car? Car { get; set; }
+        /// Связанный автомобиль.
+        public virtual Car? Car { get; set; }
 
-    public virtual User? User { get; set; }
+        /// Связанный пользователь.
+        public virtual User? User { get; set; }
+    }
 }

@@ -1,25 +1,36 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Domain.Models;
-
-public partial class UserProfile
+namespace Domain.Models
 {
-    public int ProfileId { get; set; }
+    /// Модель данных для профиля пользователя.
+    public partial class UserProfile
+    {
+        /// Уникальный идентификатор профиля.
+        public int ProfileId { get; set; }
 
-    public int? UserId { get; set; }
+        /// Идентификатор пользователя, к которому относится профиль.
+        public int? UserId { get; set; }
 
-    public string FirstName { get; set; } = null!;
+        /// Имя пользователя.
+        public string FirstName { get; set; } = null!;
 
-    public string LastName { get; set; } = null!;
+        /// Фамилия пользователя.
+        public string LastName { get; set; } = null!;
 
-    public DateOnly? BirthDate { get; set; }
+        /// Дата рождения пользователя.
+        public DateOnly? BirthDate { get; set; }
 
-    public string? Phone { get; set; }
+        /// Телефон пользователя.
+        public string? Phone { get; set; }
 
-    public string? Address { get; set; }
+        /// Адрес пользователя.
+        public string? Address { get; set; }
 
-    public string? Bio { get; set; }
+        /// Биография пользователя.
+        public string? Bio { get; set; }
 
-    public virtual User? User { get; set; }
+        /// Связанный пользователь.
+        public virtual User? User { get; set; }
+    }
 }

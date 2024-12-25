@@ -1,15 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Domain.Models;
-
-public partial class TestDrife
+namespace Domain.Models
 {
-    public int TestDriveId { get; set; }
+    /// Модель данных для тестовой поездки.
+    public partial class TestDrife
+    {
+        /// Уникальный идентификатор тестовой поездки.
+        public int TestDriveId { get; set; }
 
-    public int? CarId { get; set; }
+        /// Идентификатор автомобиля, связанного с тестовой поездкой.
+        public int? CarId { get; set; }
 
-    public virtual Car? Car { get; set; }
+        /// Связанный автомобиль.
+        public virtual Car? Car { get; set; }
 
-    public virtual Post TestDrive { get; set; } = null!;
+        /// Связанный пост, описывающий тестовую поездку.
+        public virtual Post TestDrive { get; set; } = null!;
+    }
 }

@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
+    /// Интерфейс репозитория для работы с категориями.
+    /// Наследует базовые методы работы с сущностями из IRepositoryBase<Category>.
     public interface ICategoryRepository : IRepositoryBase<Category>
     {
+       
     }
 }

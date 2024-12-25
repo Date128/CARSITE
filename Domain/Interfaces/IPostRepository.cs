@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
-   
+    /// Интерфейс репозитория для работы с постами.
+    /// Наследует базовые методы работы с сущностями из IRepositoryBase<Post>.
     public interface IPostRepository : IRepositoryBase<Post>
     {
+     
     }
 }

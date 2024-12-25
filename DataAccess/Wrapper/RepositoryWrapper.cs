@@ -1,15 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Domain.Models;
+﻿using System.Threading.Tasks;
 using Domain.Interfaces;
+using Domain.Models;
 using DataAccess.Repositories;
 using Domain.Wrapper;
 
 namespace DataAccess.Wrapper
 {
+    /// Обёртка для всех репозиториев, предоставляющая доступ к репозиториям через свойства.
+    /// Реализует интерфейс IRepositoryWrapper.
     public class RepositoryWrapper : IRepositoryWrapper
     {
         private CarsiteContext _repoContext;
@@ -38,11 +36,12 @@ namespace DataAccess.Wrapper
         private IMaintenanceServiceRepository _maintenanceService;
         private INotificationRepository _notification;
 
+        /// Репозиторий для работы с уведомлениями.
         public INotificationRepository Notification
         {
             get
             {
-                if(_notification == null)
+                if (_notification == null)
                 {
                     _notification = new NotificationRepository(_repoContext);
                 }
@@ -50,6 +49,7 @@ namespace DataAccess.Wrapper
             }
         }
 
+        /// Репозиторий для работы с услугами обслуживания.
         public IMaintenanceServiceRepository MaintenanceService
         {
             get
@@ -62,6 +62,7 @@ namespace DataAccess.Wrapper
             }
         }
 
+        /// Репозиторий для работы с записями обслуживания.
         public IMaintenanceRecordRepository MaintenanceRecord
         {
             get
@@ -74,11 +75,12 @@ namespace DataAccess.Wrapper
             }
         }
 
+        /// Репозиторий для работы с рекомендациями экспертов.
         public IExpertRecommendationRepository ExpertRecommendation
         {
             get
             {
-                if (_user == null)
+                if (_expertRecommendation == null)
                 {
                     _expertRecommendation = new ExpertRecommendationRepository(_repoContext);
                 }
@@ -86,6 +88,7 @@ namespace DataAccess.Wrapper
             }
         }
 
+        /// Репозиторий для работы с пользователями.
         public IUserRepository User
         {
             get
@@ -98,6 +101,7 @@ namespace DataAccess.Wrapper
             }
         }
 
+        /// Репозиторий для работы с автомобилями.
         public ICarRepository Car
         {
             get
@@ -110,6 +114,7 @@ namespace DataAccess.Wrapper
             }
         }
 
+        /// Репозиторий для работы с категориями.
         public ICategoryRepository Category
         {
             get
@@ -122,6 +127,7 @@ namespace DataAccess.Wrapper
             }
         }
 
+        /// Репозиторий для работы с тегами.
         public ITagRepository Tag
         {
             get
@@ -134,6 +140,7 @@ namespace DataAccess.Wrapper
             }
         }
 
+        /// Репозиторий для работы с атрибутами.
         public IAttributeRepository Attribute
         {
             get
@@ -146,6 +153,7 @@ namespace DataAccess.Wrapper
             }
         }
 
+        /// Репозиторий для работы с атрибутами автомобилей.
         public ICarAttributeRepository CarAttribute
         {
             get
@@ -158,6 +166,7 @@ namespace DataAccess.Wrapper
             }
         }
 
+        /// Репозиторий для работы с изображениями автомобилей.
         public ICarImageRepository CarImage
         {
             get
@@ -170,6 +179,7 @@ namespace DataAccess.Wrapper
             }
         }
 
+        /// Репозиторий для работы с арендой автомобилей.
         public ICarRentalRepository CarRental
         {
             get
@@ -182,6 +192,7 @@ namespace DataAccess.Wrapper
             }
         }
 
+        /// Репозиторий для работы с продажей автомобилей.
         public ICarSaleRepository CarSale
         {
             get
@@ -194,6 +205,7 @@ namespace DataAccess.Wrapper
             }
         }
 
+        /// Репозиторий для работы с комментариями.
         public ICommentRepository Comment
         {
             get
@@ -206,6 +218,7 @@ namespace DataAccess.Wrapper
             }
         }
 
+        /// Репозиторий для работы с новостями.
         public INewsRepository News
         {
             get
@@ -218,6 +231,7 @@ namespace DataAccess.Wrapper
             }
         }
 
+        /// Репозиторий для работы с постами.
         public IPostRepository Post
         {
             get
@@ -230,6 +244,7 @@ namespace DataAccess.Wrapper
             }
         }
 
+        /// Репозиторий для работы с тегами постов.
         public IPostTagRepository PostTag
         {
             get
@@ -242,6 +257,7 @@ namespace DataAccess.Wrapper
             }
         }
 
+        /// Репозиторий для работы с рейтингами.
         public IRatingRepository Rating
         {
             get
@@ -254,6 +270,7 @@ namespace DataAccess.Wrapper
             }
         }
 
+        /// Репозиторий для работы с отзывами.
         public IReviewRepository Review
         {
             get
@@ -266,7 +283,7 @@ namespace DataAccess.Wrapper
             }
         }
 
-
+        /// Репозиторий для работы с сервисными центрами.
         public IServiceCenterRepository ServiceCenter
         {
             get
@@ -279,6 +296,7 @@ namespace DataAccess.Wrapper
             }
         }
 
+        /// Репозиторий для работы с техническим обслуживанием.
         public ITechnicalMaintenanceRepository TechnicalMaintenance
         {
             get
@@ -291,6 +309,7 @@ namespace DataAccess.Wrapper
             }
         }
 
+        /// Репозиторий для работы с тестовыми поездками.
         public ITestDrifeRepository TestDrife
         {
             get
@@ -303,6 +322,7 @@ namespace DataAccess.Wrapper
             }
         }
 
+        /// Репозиторий для работы с профилями пользователей.
         public IUserProfileRepository UserProfile
         {
             get
@@ -315,11 +335,14 @@ namespace DataAccess.Wrapper
             }
         }
 
+        /// Конструктор обёртки репозиториев.
+        /// <param name="repositoryContext">Контекст базы данных.</param>
         public RepositoryWrapper(CarsiteContext repositoryContext)
         {
             _repoContext = repositoryContext;
         }
 
+        /// Сохраняет изменения в базе данных.
         public async Task Save()
         {
             await _repoContext.SaveChangesAsync();

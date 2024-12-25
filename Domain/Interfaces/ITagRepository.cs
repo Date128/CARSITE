@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
+    /// Интерфейс репозитория для работы с тегами.
+    /// Наследует базовые методы работы с сущностями из IRepositoryBase<Tag>.
     public interface ITagRepository : IRepositoryBase<Tag>
     {
+        
     }
 }

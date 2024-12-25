@@ -1,13 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Domain.Models;
-
-public partial class Tag
+namespace Domain.Models
 {
-    public int TagId { get; set; }
+    /// Модель данных для тега.
+    public partial class Tag
+    {
+        /// Уникальный идентификатор тега.
+        public int TagId { get; set; }
 
-    public string Name { get; set; } = null!;
+        /// Название тега.
+        public string Name { get; set; } = null!;
 
-    public virtual ICollection<PostTag> PostTags { get; set; } = new List<PostTag>();
+        /// Коллекция связей между тегом и постами.
+        public virtual ICollection<PostTag> PostTags { get; set; } = new List<PostTag>();
+    }
 }

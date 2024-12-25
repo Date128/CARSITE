@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
+    /// Интерфейс репозитория для работы с новостями.
+    /// Наследует базовые методы работы с сущностями из IRepositoryBase<News>.
     public interface INewsRepository : IRepositoryBase<News>
     {
+   
     }
 }

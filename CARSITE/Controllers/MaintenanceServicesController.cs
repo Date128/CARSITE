@@ -5,29 +5,42 @@ using System.Threading.Tasks;
 
 namespace CARSITEAPI.Controllers
 {
+    /// Контроллер для работы с услугами технического обслуживания.
     [Route("api/[controller]")]
     [ApiController]
     public class MaintenanceServicesController : ControllerBase
     {
         private readonly IMaintenanceServiceService _maintenanceServiceService;
 
+        /// Конструктор контроллера MaintenanceServicesController.
+        /// <param name="maintenanceServiceService">Сервис для работы с услугами технического обслуживания.</param>
         public MaintenanceServicesController(IMaintenanceServiceService maintenanceServiceService)
         {
             _maintenanceServiceService = maintenanceServiceService;
         }
 
+        /// Получает список всех услуг технического обслуживания.
+        /// <returns>Список услуг технического обслуживания.</returns>
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            return Ok(await _maintenanceServiceService.GetAll());
+            var maintenanceServices = await _maintenanceServiceService.GetAll();
+            return Ok(maintenanceServices);
         }
 
+        /// Получает услугу технического обслуживания по ее идентификатору.
+        /// <param name="id">Идентификатор услуги технического обслуживания.</param>
+        /// <returns>Услуга технического обслуживания.</returns>
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            return Ok(await _maintenanceServiceService.GetById(id));
+            var maintenanceService = await _maintenanceServiceService.GetById(id);
+            return Ok(maintenanceService);
         }
 
+        /// Добавляет новую услугу технического обслуживания.
+        /// <param name="maintenanceService">Модель услуги технического обслуживания для добавления.</param>
+        /// <returns>Результат операции.</returns>
         [HttpPost]
         public async Task<IActionResult> Add(MaintenanceService maintenanceService)
         {
@@ -35,6 +48,9 @@ namespace CARSITEAPI.Controllers
             return Ok();
         }
 
+        /// Обновляет существующую услугу технического обслуживания.
+        /// <param name="maintenanceService">Модель услуги технического обслуживания для обновления.</param>
+        /// <returns>Результат операции.</returns>
         [HttpPut]
         public async Task<IActionResult> Update(MaintenanceService maintenanceService)
         {
@@ -42,6 +58,9 @@ namespace CARSITEAPI.Controllers
             return Ok();
         }
 
+        /// Удаляет услугу технического обслуживания по ее идентификатору.
+        /// <param name="id">Идентификатор услуги технического обслуживания.</param>
+        /// <returns>Результат операции.</returns>
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

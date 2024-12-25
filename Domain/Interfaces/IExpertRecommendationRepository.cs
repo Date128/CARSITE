@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
+    /// Интерфейс репозитория для работы с рекомендациями экспертов.
+    /// Наследует базовые методы работы с сущностями из IRepositoryBase<ExpertRecommendation>.
     public interface IExpertRecommendationRepository : IRepositoryBase<ExpertRecommendation>
     {
+       
     }
 }
