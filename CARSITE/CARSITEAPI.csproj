@@ -20,4 +20,8 @@
     <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\anpod\OneDrive\Documents\GitHub\CARSITE\CARSITE\.editorconfig" />
+  </ItemGroup>
+
 </Project>
