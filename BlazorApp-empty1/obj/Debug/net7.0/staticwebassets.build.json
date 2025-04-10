@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "y1pjTPpEbIVPYUOSrsLkJjpqemGXKv13r2lpAJ/E2dY=",
+  "Hash": "lGuOQcIi2gIh76D4PA47UGcMLAHnTfqIYPC1o+f49Aw=",
   "Source": "BlazorApp_empty1",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "uapkr7msmh",
-      "Integrity": "6muur8Udth+TfluWI04ofzRgVOZVzg0OAvLRUm43ekU=",
+      "Fingerprint": "a2k9l9be73",
+      "Integrity": "Lgn/rnCjOlLQiEL/A69k7qHxKJT6+6xbSLkvP5yDZEU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net7.0\\blazor.boot.json"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "qdbw3h4vne",
-      "Integrity": "nsgdHpNOZ3lChBtMUIm/agvoyBccafpPdAulW/A2M4M=",
+      "Fingerprint": "7pmjamy3o3",
+      "Integrity": "VcRoi7UNfOXkwhiyDrTnZJTtWPiczQahgig3k6YAfYI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net7.0\\BlazorApp_empty1.dll"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "09h611ubd2",
-      "Integrity": "1IG+EBwFx2ESjr7HdgdxPGMyXJ7E3FezAqghkXOMueA=",
+      "Fingerprint": "zgiivuerdx",
+      "Integrity": "A4XrEAHO9r913YD8QmlhyMsSxK1KVeGPIyvQ+4BbmLo=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net7.0\\BlazorApp_empty1.pdb"
@@ -374,6 +374,27 @@
       "OriginalItemSpec": "C:\\Users\\anpod\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.19\\lib\\net7.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
+      "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Bcl.AsyncInterfaces.dll",
+      "SourceId": "BlazorApp_empty1",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Bcl.AsyncInterfaces.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "6fzyoh41qo",
+      "Integrity": "0mO5y3VTyfdQrFHzAR3utkTke9be/8Anqh+aZJL3XFQ=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anpod\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.0\\lib\\netstandard2.1\\Microsoft.Bcl.AsyncInterfaces.dll"
+    },
+    {
       "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
       "SourceId": "BlazorApp_empty1",
       "SourceType": "Computed",
@@ -393,6 +414,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\anpod\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.20\\runtimes\\browser-wasm\\lib\\net7.0\\Microsoft.CSharp.dll"
+    },
+    {
+      "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.AI.Abstractions.dll",
+      "SourceId": "BlazorApp_empty1",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.AI.Abstractions.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "4shdrp237w",
+      "Integrity": "RHqXA95tCVAywS0ZKJ9ozgDG5u8P6ieUWnEowVXCO0Y=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anpod\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\9.3.0-preview.1.25161.3\\lib\\netstandard2.0\\Microsoft.Extensions.AI.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Abstractions.dll",
@@ -855,6 +897,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\anpod\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.20\\runtimes\\browser-wasm\\lib\\net7.0\\netstandard.dll"
+    },
+    {
+      "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\OllamaSharp.dll",
+      "SourceId": "BlazorApp_empty1",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/OllamaSharp.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "mfelrptf15",
+      "Integrity": "rjRT+gZqZun4rLBtO+IfwQyYjKnhfUABHq4AYcjReyw=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anpod\\.nuget\\packages\\ollamasharp\\5.1.9\\lib\\netstandard2.1\\OllamaSharp.dll"
     },
     {
       "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.AppContext.dll",
@@ -3664,11 +3727,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "g3nf00krc1",
-      "Integrity": "VN0WgwNzlWCvW3InXrQGxMIOJakxADab0O/EIv/DPvM=",
+      "Fingerprint": "yo3jw7vz45",
+      "Integrity": "cuXJCAMxWcZ2EaBvm9vFAVMtBPzaPrEpZ7uiS9kjUPQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\anpod\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.20\\runtimes\\browser-wasm\\lib\\net7.0\\System.Text.Encodings.Web.dll"
+      "OriginalItemSpec": "C:\\Users\\anpod\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\runtimes\\browser\\lib\\net7.0\\System.Text.Encodings.Web.dll"
     },
     {
       "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Text.Json.dll",
@@ -3685,11 +3748,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "7fqh1mn6la",
-      "Integrity": "A0kNCBPDcFQxPNZdDq8nYHqobFkLehLafFYEyRWtAbY=",
+      "Fingerprint": "sjpyvmzugg",
+      "Integrity": "KAM4ZQNrAmfvre3p2E2FrWu6cJfsJ7LmqCXC9bguq5Y=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\anpod\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.20\\runtimes\\browser-wasm\\lib\\net7.0\\System.Text.Json.dll"
+      "OriginalItemSpec": "C:\\Users\\anpod\\.nuget\\packages\\system.text.json\\8.0.5\\lib\\net7.0\\System.Text.Json.dll"
     },
     {
       "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Text.RegularExpressions.dll",
@@ -5708,6 +5771,27 @@
       "OriginalItemSpec": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Data.dll"
     },
     {
+      "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\bv3dqxrqvb-6fzyoh41qo.gz",
+      "SourceId": "BlazorApp_empty1",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Bcl.AsyncInterfaces.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Bcl.AsyncInterfaces.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "z66uo5do4w",
+      "Integrity": "25bv+hk7F6Yy5Ji6Wwz8KAPNm+JFKdAXcEXbtyGZw7s=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Bcl.AsyncInterfaces.dll"
+    },
+    {
       "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\bzkdllnulx-og1hutzwxp.gz",
       "SourceId": "BlazorApp_empty1",
       "SourceType": "Computed",
@@ -5792,7 +5876,7 @@
       "OriginalItemSpec": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Threading.Tasks.Dataflow.dll"
     },
     {
-      "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\c66prwfzwk-09h611ubd2.gz",
+      "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\c66prwfzwk-zgiivuerdx.gz",
       "SourceId": "BlazorApp_empty1",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\",
@@ -5806,8 +5890,8 @@
       "RelatedAsset": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\BlazorApp_empty1.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "mp6s33riu4",
-      "Integrity": "+g9mxikVv3ANaIEdyRmS9L9LTmoUBXHRg90c/ykfLpM=",
+      "Fingerprint": "q5cehf3ayw",
+      "Integrity": "8s3kMDHEbNPsMkLtFhuQXckYbuJqfyv45L5HM6gTd5w=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\BlazorApp_empty1.pdb"
@@ -6212,7 +6296,7 @@
       "OriginalItemSpec": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Linq.dll"
     },
     {
-      "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\fbl9cowakb-7fqh1mn6la.gz",
+      "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\fbl9cowakb-sjpyvmzugg.gz",
       "SourceId": "BlazorApp_empty1",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\",
@@ -6226,8 +6310,8 @@
       "RelatedAsset": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Text.Json.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jhv6l73uzb",
-      "Integrity": "GbpunyH1+MO5tPvDUq+Dv5N0Venhq9vPMYM2VAILakc=",
+      "Fingerprint": "x6v314kp3a",
+      "Integrity": "qXEjNLFcbYt3R6UMOBke8Ff1N9afkEEa4CaSasmoj2I=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Text.Json.dll"
@@ -6779,7 +6863,7 @@
       "OriginalItemSpec": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Abstractions.dll"
     },
     {
-      "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\l45pu3ao3f-g3nf00krc1.gz",
+      "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\l45pu3ao3f-yo3jw7vz45.gz",
       "SourceId": "BlazorApp_empty1",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\",
@@ -6793,8 +6877,8 @@
       "RelatedAsset": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Text.Encodings.Web.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "r8zcs8g2g7",
-      "Integrity": "lYZahiD8LlLSkNdMxFoKYHECuyZts87q2mW8jNS+4WE=",
+      "Fingerprint": "2aml7ivc5e",
+      "Integrity": "9ryCbpYklyaueJ8M7Tdept/PwsPsmoSMDHEmetK4Ggk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Text.Encodings.Web.dll"
@@ -7052,6 +7136,27 @@
       "OriginalItemSpec": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Security.AccessControl.dll"
     },
     {
+      "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\n0r95bnddm-mfelrptf15.gz",
+      "SourceId": "BlazorApp_empty1",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/OllamaSharp.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\OllamaSharp.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "3ww7nakprc",
+      "Integrity": "QwE6FGYB5AY/w2GncxjxnabtM8VHgRFjt6SuvRTJY18=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\OllamaSharp.dll"
+    },
+    {
       "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\n1goy3ozga-9p9i5smpye.gz",
       "SourceId": "BlazorApp_empty1",
       "SourceType": "Computed",
@@ -7283,7 +7388,7 @@
       "OriginalItemSpec": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.IO.FileSystem.AccessControl.dll"
     },
     {
-      "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\ow5ka01qw9-qdbw3h4vne.gz",
+      "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\ow5ka01qw9-7pmjamy3o3.gz",
       "SourceId": "BlazorApp_empty1",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\",
@@ -7297,8 +7402,8 @@
       "RelatedAsset": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\BlazorApp_empty1.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "tzvfyu44sr",
-      "Integrity": "uSnvOii4Qa5yey91Det75SMGe1ovpXX7NAf+8t/wfJ4=",
+      "Fingerprint": "qosal45lj5",
+      "Integrity": "ugT6Au69NCk2qmWJXGkEVXAdrshany50Lm5CdarUBwU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\BlazorApp_empty1.dll"
@@ -7491,6 +7596,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.Handles.dll"
+    },
+    {
+      "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\qd5hv8b0cc-4shdrp237w.gz",
+      "SourceId": "BlazorApp_empty1",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.AI.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.AI.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ijvdgxw9tn",
+      "Integrity": "EquBpTGpqIfj4l7Z5BydH1uLRNdQtuosH1kZ266IqFo=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.AI.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\qfwx0z5tom-3tfiukpww7.gz",
@@ -7766,7 +7892,7 @@
       "OriginalItemSpec": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Numerics.Vectors.dll"
     },
     {
-      "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\tdcd4wruy7-uapkr7msmh.gz",
+      "Identity": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\tdcd4wruy7-a2k9l9be73.gz",
       "SourceId": "BlazorApp_empty1",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\",
@@ -7780,8 +7906,8 @@
       "RelatedAsset": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "tx3otu7qpd",
-      "Integrity": "D3G/sDbVk02EARXEzOyvGA7JJxLodHv60mMd2Nin5jM=",
+      "Fingerprint": "1ydztvhorn",
+      "Integrity": "WVpXnnzgc8gki8Md/JIBK+r6Kk4lIacugBV74PSG4SA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -8555,7 +8681,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19538"
+          "Value": "19824"
         },
         {
           "Name": "Content-Type",
@@ -8563,11 +8689,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6muur8Udth+TfluWI04ofzRgVOZVzg0OAvLRUm43ekU=\""
+          "Value": "\"Lgn/rnCjOlLQiEL/A69k7qHxKJT6+6xbSLkvP5yDZEU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Dec 2024 21:17:56 GMT"
+          "Value": "Thu, 10 Apr 2025 09:19:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8577,18 +8703,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6muur8Udth+TfluWI04ofzRgVOZVzg0OAvLRUm43ekU="
+          "Value": "sha256-Lgn/rnCjOlLQiEL/A69k7qHxKJT6+6xbSLkvP5yDZEU="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\tdcd4wruy7-uapkr7msmh.gz",
+      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\tdcd4wruy7-a2k9l9be73.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000112019715"
+          "Quality": "0.000110265740"
         }
       ],
       "ResponseHeaders": [
@@ -8598,15 +8724,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8926"
+          "Value": "9068"
         },
         {
           "Name": "ETag",
-          "Value": "\"D3G/sDbVk02EARXEzOyvGA7JJxLodHv60mMd2Nin5jM=\""
+          "Value": "\"WVpXnnzgc8gki8Md/JIBK+r6Kk4lIacugBV74PSG4SA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Dec 2024 21:14:23 GMT"
+          "Value": "Tue, 08 Apr 2025 12:43:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8626,19 +8752,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"6muur8Udth+TfluWI04ofzRgVOZVzg0OAvLRUm43ekU=\""
+          "Value": "W/\"Lgn/rnCjOlLQiEL/A69k7qHxKJT6+6xbSLkvP5yDZEU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6muur8Udth+TfluWI04ofzRgVOZVzg0OAvLRUm43ekU="
+          "Value": "sha256-Lgn/rnCjOlLQiEL/A69k7qHxKJT6+6xbSLkvP5yDZEU="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\tdcd4wruy7-uapkr7msmh.gz",
+      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\tdcd4wruy7-a2k9l9be73.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8647,7 +8773,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8926"
+          "Value": "9068"
         },
         {
           "Name": "Content-Type",
@@ -8655,11 +8781,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"D3G/sDbVk02EARXEzOyvGA7JJxLodHv60mMd2Nin5jM=\""
+          "Value": "\"WVpXnnzgc8gki8Md/JIBK+r6Kk4lIacugBV74PSG4SA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Dec 2024 21:14:23 GMT"
+          "Value": "Tue, 08 Apr 2025 12:43:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8677,7 +8803,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-D3G/sDbVk02EARXEzOyvGA7JJxLodHv60mMd2Nin5jM="
+          "Value": "sha256-WVpXnnzgc8gki8Md/JIBK+r6Kk4lIacugBV74PSG4SA="
         }
       ]
     },
@@ -8829,7 +8955,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13312"
+          "Value": "32768"
         },
         {
           "Name": "Content-Type",
@@ -8837,11 +8963,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nsgdHpNOZ3lChBtMUIm/agvoyBccafpPdAulW/A2M4M=\""
+          "Value": "\"VcRoi7UNfOXkwhiyDrTnZJTtWPiczQahgig3k6YAfYI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Dec 2024 21:17:56 GMT"
+          "Value": "Thu, 10 Apr 2025 09:19:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8851,18 +8977,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nsgdHpNOZ3lChBtMUIm/agvoyBccafpPdAulW/A2M4M="
+          "Value": "sha256-VcRoi7UNfOXkwhiyDrTnZJTtWPiczQahgig3k6YAfYI="
         }
       ]
     },
     {
       "Route": "_framework/BlazorApp_empty1.dll",
-      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\ow5ka01qw9-qdbw3h4vne.gz",
+      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\ow5ka01qw9-7pmjamy3o3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000174947516"
+          "Quality": "0.000080482897"
         }
       ],
       "ResponseHeaders": [
@@ -8872,15 +8998,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5715"
+          "Value": "12424"
         },
         {
           "Name": "ETag",
-          "Value": "\"uSnvOii4Qa5yey91Det75SMGe1ovpXX7NAf+8t/wfJ4=\""
+          "Value": "\"ugT6Au69NCk2qmWJXGkEVXAdrshany50Lm5CdarUBwU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Dec 2024 21:14:22 GMT"
+          "Value": "Tue, 08 Apr 2025 12:43:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8900,19 +9026,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"nsgdHpNOZ3lChBtMUIm/agvoyBccafpPdAulW/A2M4M=\""
+          "Value": "W/\"VcRoi7UNfOXkwhiyDrTnZJTtWPiczQahgig3k6YAfYI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nsgdHpNOZ3lChBtMUIm/agvoyBccafpPdAulW/A2M4M="
+          "Value": "sha256-VcRoi7UNfOXkwhiyDrTnZJTtWPiczQahgig3k6YAfYI="
         }
       ]
     },
     {
       "Route": "_framework/BlazorApp_empty1.dll.gz",
-      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\ow5ka01qw9-qdbw3h4vne.gz",
+      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\ow5ka01qw9-7pmjamy3o3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8921,7 +9047,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5715"
+          "Value": "12424"
         },
         {
           "Name": "Content-Type",
@@ -8929,11 +9055,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uSnvOii4Qa5yey91Det75SMGe1ovpXX7NAf+8t/wfJ4=\""
+          "Value": "\"ugT6Au69NCk2qmWJXGkEVXAdrshany50Lm5CdarUBwU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Dec 2024 21:14:22 GMT"
+          "Value": "Tue, 08 Apr 2025 12:43:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8951,7 +9077,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-uSnvOii4Qa5yey91Det75SMGe1ovpXX7NAf+8t/wfJ4="
+          "Value": "sha256-ugT6Au69NCk2qmWJXGkEVXAdrshany50Lm5CdarUBwU="
         }
       ]
     },
@@ -8966,7 +9092,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17912"
+          "Value": "25628"
         },
         {
           "Name": "Content-Type",
@@ -8974,11 +9100,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1IG+EBwFx2ESjr7HdgdxPGMyXJ7E3FezAqghkXOMueA=\""
+          "Value": "\"A4XrEAHO9r913YD8QmlhyMsSxK1KVeGPIyvQ+4BbmLo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Dec 2024 21:17:56 GMT"
+          "Value": "Thu, 10 Apr 2025 09:19:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8988,18 +9114,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1IG+EBwFx2ESjr7HdgdxPGMyXJ7E3FezAqghkXOMueA="
+          "Value": "sha256-A4XrEAHO9r913YD8QmlhyMsSxK1KVeGPIyvQ+4BbmLo="
         }
       ]
     },
     {
       "Route": "_framework/BlazorApp_empty1.pdb",
-      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\c66prwfzwk-09h611ubd2.gz",
+      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\c66prwfzwk-zgiivuerdx.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000081307423"
+          "Quality": "0.000053376034"
         }
       ],
       "ResponseHeaders": [
@@ -9009,15 +9135,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12298"
+          "Value": "18734"
         },
         {
           "Name": "ETag",
-          "Value": "\"+g9mxikVv3ANaIEdyRmS9L9LTmoUBXHRg90c/ykfLpM=\""
+          "Value": "\"8s3kMDHEbNPsMkLtFhuQXckYbuJqfyv45L5HM6gTd5w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Dec 2024 21:14:22 GMT"
+          "Value": "Tue, 08 Apr 2025 12:43:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9037,19 +9163,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"1IG+EBwFx2ESjr7HdgdxPGMyXJ7E3FezAqghkXOMueA=\""
+          "Value": "W/\"A4XrEAHO9r913YD8QmlhyMsSxK1KVeGPIyvQ+4BbmLo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1IG+EBwFx2ESjr7HdgdxPGMyXJ7E3FezAqghkXOMueA="
+          "Value": "sha256-A4XrEAHO9r913YD8QmlhyMsSxK1KVeGPIyvQ+4BbmLo="
         }
       ]
     },
     {
       "Route": "_framework/BlazorApp_empty1.pdb.gz",
-      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\c66prwfzwk-09h611ubd2.gz",
+      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\c66prwfzwk-zgiivuerdx.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9058,7 +9184,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12298"
+          "Value": "18734"
         },
         {
           "Name": "Content-Type",
@@ -9066,11 +9192,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+g9mxikVv3ANaIEdyRmS9L9LTmoUBXHRg90c/ykfLpM=\""
+          "Value": "\"8s3kMDHEbNPsMkLtFhuQXckYbuJqfyv45L5HM6gTd5w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Dec 2024 21:14:22 GMT"
+          "Value": "Tue, 08 Apr 2025 12:43:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9088,7 +9214,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+g9mxikVv3ANaIEdyRmS9L9LTmoUBXHRg90c/ykfLpM="
+          "Value": "sha256-8s3kMDHEbNPsMkLtFhuQXckYbuJqfyv45L5HM6gTd5w="
         }
       ]
     },
@@ -10874,6 +11000,143 @@
       ]
     },
     {
+      "Route": "_framework/Microsoft.Bcl.AsyncInterfaces.dll",
+      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Bcl.AsyncInterfaces.dll",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0mO5y3VTyfdQrFHzAR3utkTke9be/8Anqh+aZJL3XFQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 02:37:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0mO5y3VTyfdQrFHzAR3utkTke9be/8Anqh+aZJL3XFQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Bcl.AsyncInterfaces.dll",
+      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\bv3dqxrqvb-6fzyoh41qo.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000090670052"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11028"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"25bv+hk7F6Yy5Ji6Wwz8KAPNm+JFKdAXcEXbtyGZw7s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 02:37:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"0mO5y3VTyfdQrFHzAR3utkTke9be/8Anqh+aZJL3XFQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0mO5y3VTyfdQrFHzAR3utkTke9be/8Anqh+aZJL3XFQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Bcl.AsyncInterfaces.dll.gz",
+      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\bv3dqxrqvb-6fzyoh41qo.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"25bv+hk7F6Yy5Ji6Wwz8KAPNm+JFKdAXcEXbtyGZw7s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 02:37:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-25bv+hk7F6Yy5Ji6Wwz8KAPNm+JFKdAXcEXbtyGZw7s="
+        }
+      ]
+    },
+    {
       "Route": "_framework/Microsoft.CSharp.dll",
       "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
       "Selectors": [],
@@ -11007,6 +11270,143 @@
         {
           "Name": "integrity",
           "Value": "sha256-IqNHGZ4gxdy9H4JAA8lmDyx+phO3pqLNlP1Wap1L5Io="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.AI.Abstractions.dll",
+      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.AI.Abstractions.dll",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "245816"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RHqXA95tCVAywS0ZKJ9ozgDG5u8P6ieUWnEowVXCO0Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 16:00:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RHqXA95tCVAywS0ZKJ9ozgDG5u8P6ieUWnEowVXCO0Y="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.AI.Abstractions.dll",
+      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\qd5hv8b0cc-4shdrp237w.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000010331432"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "96791"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EquBpTGpqIfj4l7Z5BydH1uLRNdQtuosH1kZ266IqFo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 16:00:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"RHqXA95tCVAywS0ZKJ9ozgDG5u8P6ieUWnEowVXCO0Y=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RHqXA95tCVAywS0ZKJ9ozgDG5u8P6ieUWnEowVXCO0Y="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.AI.Abstractions.dll.gz",
+      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\qd5hv8b0cc-4shdrp237w.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "96791"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EquBpTGpqIfj4l7Z5BydH1uLRNdQtuosH1kZ266IqFo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 16:00:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EquBpTGpqIfj4l7Z5BydH1uLRNdQtuosH1kZ266IqFo="
         }
       ]
     },
@@ -14021,6 +14421,143 @@
         {
           "Name": "integrity",
           "Value": "sha256-XL4yDy36qCApfF1ziJ74BZ3QS/Ze6K0lqkx9zcWMOno="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/OllamaSharp.dll",
+      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\OllamaSharp.dll",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "134144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rjRT+gZqZun4rLBtO+IfwQyYjKnhfUABHq4AYcjReyw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 08:24:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rjRT+gZqZun4rLBtO+IfwQyYjKnhfUABHq4AYcjReyw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/OllamaSharp.dll",
+      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\n0r95bnddm-mfelrptf15.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000018465857"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54153"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QwE6FGYB5AY/w2GncxjxnabtM8VHgRFjt6SuvRTJY18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 08:24:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rjRT+gZqZun4rLBtO+IfwQyYjKnhfUABHq4AYcjReyw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rjRT+gZqZun4rLBtO+IfwQyYjKnhfUABHq4AYcjReyw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/OllamaSharp.dll.gz",
+      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\n0r95bnddm-mfelrptf15.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54153"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QwE6FGYB5AY/w2GncxjxnabtM8VHgRFjt6SuvRTJY18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 08:24:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QwE6FGYB5AY/w2GncxjxnabtM8VHgRFjt6SuvRTJY18="
         }
       ]
     },
@@ -32264,11 +32801,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VN0WgwNzlWCvW3InXrQGxMIOJakxADab0O/EIv/DPvM=\""
+          "Value": "\"cuXJCAMxWcZ2EaBvm9vFAVMtBPzaPrEpZ7uiS9kjUPQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 May 2024 17:41:06 GMT"
+          "Value": "Tue, 31 Oct 2023 15:00:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -32278,18 +32815,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-VN0WgwNzlWCvW3InXrQGxMIOJakxADab0O/EIv/DPvM="
+          "Value": "sha256-cuXJCAMxWcZ2EaBvm9vFAVMtBPzaPrEpZ7uiS9kjUPQ="
         }
       ]
     },
     {
       "Route": "_framework/System.Text.Encodings.Web.dll",
-      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\l45pu3ao3f-g3nf00krc1.gz",
+      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\l45pu3ao3f-yo3jw7vz45.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000032086248"
+          "Quality": "0.000032036907"
         }
       ],
       "ResponseHeaders": [
@@ -32299,11 +32836,11 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "31165"
+          "Value": "31213"
         },
         {
           "Name": "ETag",
-          "Value": "\"lYZahiD8LlLSkNdMxFoKYHECuyZts87q2mW8jNS+4WE=\""
+          "Value": "\"9ryCbpYklyaueJ8M7Tdept/PwsPsmoSMDHEmetK4Ggk=\""
         },
         {
           "Name": "Last-Modified",
@@ -32327,19 +32864,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"VN0WgwNzlWCvW3InXrQGxMIOJakxADab0O/EIv/DPvM=\""
+          "Value": "W/\"cuXJCAMxWcZ2EaBvm9vFAVMtBPzaPrEpZ7uiS9kjUPQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-VN0WgwNzlWCvW3InXrQGxMIOJakxADab0O/EIv/DPvM="
+          "Value": "sha256-cuXJCAMxWcZ2EaBvm9vFAVMtBPzaPrEpZ7uiS9kjUPQ="
         }
       ]
     },
     {
       "Route": "_framework/System.Text.Encodings.Web.dll.gz",
-      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\l45pu3ao3f-g3nf00krc1.gz",
+      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\l45pu3ao3f-yo3jw7vz45.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -32348,7 +32885,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "31165"
+          "Value": "31213"
         },
         {
           "Name": "Content-Type",
@@ -32356,7 +32893,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lYZahiD8LlLSkNdMxFoKYHECuyZts87q2mW8jNS+4WE=\""
+          "Value": "\"9ryCbpYklyaueJ8M7Tdept/PwsPsmoSMDHEmetK4Ggk=\""
         },
         {
           "Name": "Last-Modified",
@@ -32378,7 +32915,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lYZahiD8LlLSkNdMxFoKYHECuyZts87q2mW8jNS+4WE="
+          "Value": "sha256-9ryCbpYklyaueJ8M7Tdept/PwsPsmoSMDHEmetK4Ggk="
         }
       ]
     },
@@ -32393,7 +32930,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "542496"
+          "Value": "582408"
         },
         {
           "Name": "Content-Type",
@@ -32401,11 +32938,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"A0kNCBPDcFQxPNZdDq8nYHqobFkLehLafFYEyRWtAbY=\""
+          "Value": "\"KAM4ZQNrAmfvre3p2E2FrWu6cJfsJ7LmqCXC9bguq5Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 May 2024 17:39:06 GMT"
+          "Value": "Mon, 16 Sep 2024 23:14:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -32415,18 +32952,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-A0kNCBPDcFQxPNZdDq8nYHqobFkLehLafFYEyRWtAbY="
+          "Value": "sha256-KAM4ZQNrAmfvre3p2E2FrWu6cJfsJ7LmqCXC9bguq5Y="
         }
       ]
     },
     {
       "Route": "_framework/System.Text.Json.dll",
-      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\fbl9cowakb-7fqh1mn6la.gz",
+      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\fbl9cowakb-sjpyvmzugg.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000005103968"
+          "Quality": "0.000004774569"
         }
       ],
       "ResponseHeaders": [
@@ -32436,15 +32973,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "195925"
+          "Value": "209442"
         },
         {
           "Name": "ETag",
-          "Value": "\"GbpunyH1+MO5tPvDUq+Dv5N0Venhq9vPMYM2VAILakc=\""
+          "Value": "\"qXEjNLFcbYt3R6UMOBke8Ff1N9afkEEa4CaSasmoj2I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 May 2024 17:39:06 GMT"
+          "Value": "Mon, 16 Sep 2024 23:14:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -32464,19 +33001,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"A0kNCBPDcFQxPNZdDq8nYHqobFkLehLafFYEyRWtAbY=\""
+          "Value": "W/\"KAM4ZQNrAmfvre3p2E2FrWu6cJfsJ7LmqCXC9bguq5Y=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-A0kNCBPDcFQxPNZdDq8nYHqobFkLehLafFYEyRWtAbY="
+          "Value": "sha256-KAM4ZQNrAmfvre3p2E2FrWu6cJfsJ7LmqCXC9bguq5Y="
         }
       ]
     },
     {
       "Route": "_framework/System.Text.Json.dll.gz",
-      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\fbl9cowakb-7fqh1mn6la.gz",
+      "AssetFile": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\obj\\Debug\\net7.0\\compressed\\fbl9cowakb-sjpyvmzugg.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -32485,7 +33022,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "195925"
+          "Value": "209442"
         },
         {
           "Name": "Content-Type",
@@ -32493,11 +33030,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GbpunyH1+MO5tPvDUq+Dv5N0Venhq9vPMYM2VAILakc=\""
+          "Value": "\"qXEjNLFcbYt3R6UMOBke8Ff1N9afkEEa4CaSasmoj2I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 May 2024 17:39:06 GMT"
+          "Value": "Mon, 16 Sep 2024 23:14:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -32515,7 +33052,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GbpunyH1+MO5tPvDUq+Dv5N0Venhq9vPMYM2VAILakc="
+          "Value": "sha256-qXEjNLFcbYt3R6UMOBke8Ff1N9afkEEa4CaSasmoj2I="
         }
       ]
     },

@@ -1,0 +1,251 @@
+﻿@page "/assistant"
+@inject NavigationManager Navigation
+@inject IJSRuntime JS
+@using OllamaSharp
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carsite - Ассистент</title>
+    <style>
+        .chat-container {
+            max-height: 400px;
+            overflow-y: auto;
+            word-wrap: break-word;
+            white-space: pre-wrap;
+        }
+
+        .message {
+            margin-bottom: 10px;
+            padding: 8px 12px;
+            border-radius: 5px;
+            display: inline-block;
+            max-width: 100%;
+        }
+
+        .user-message {
+            background-color: #007bff;
+            color: white;
+            text-align: right;
+        }
+
+        .assistant-message {
+            background-color: #6c757d;
+            color: white;
+            text-align: left;
+        }
+
+        .error-message {
+            background-color: #dc3545;
+            color: white;
+            text-align: left;
+        }
+
+        .input-group-custom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+            .input-group-custom .form-control {
+                flex-grow: 1;
+                margin-left: 10px;
+                margin-right: 10px;
+                resize: vertical;
+                min-height: 38px;
+                overflow-y: auto;
+            }
+
+            .input-group-custom .btn {
+                flex-shrink: 0;
+            }
+    </style>
+</head>
+<body>
+    <nav class="py-3 navbar navbar-expand-lg fixed-top auto-hiding-navbar navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Carsite</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/cars">Автомобили</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/services">Услуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="assistant" class="d-flex align-items-center" style="height: 100vh;">
+        <div class="container">
+            <h1 class="display-4 fw-bold text-center" style="color: #003366;">АССИСТЕНТ CARSITE</h1>
+            <p class="lead text-center mt-4">
+                Задайте вопрос о моделях автомобилей или их характеристиках!
+            </p>
+
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-body chat-container">
+                            @foreach (var message in Messages)
+                            {
+                                <div class="@(message.IsUser ? "text-end" : "text-start")">
+                                    <span class="message @(message.IsUser ? "user-message" : (message.IsError ? "error-message" : "assistant-message"))">
+                                        @((MarkupString)(message.IsUser ? message.Text : FormatMessage(message.Text)))
+                                    </span>
+                                </div>
+                            }
+                        </div>
+                        <div class="card-footer">
+                            <div class="input-group-custom">
+                                <textarea class="form-control" @bind="UserInput" @onkeydown="@(e => { if (e.Key == "Enter" && !e.ShiftKey) { SendMessage(); } })" placeholder="Введите ваш вопрос..."></textarea>
+                                <button class="btn btn-dark" @onclick="SendMessage" disabled="@IsSending">Отправить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <button type="button" class="btn btn-dark btn-lg me-2" @onclick="NavigateToHome">Вернуться на главную</button>
+                <button type="button" class="btn btn-danger btn-lg" @onclick="ClearChat">Обновить чат</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+@code {
+    private OllamaApiClient ollama;
+    private List<(string Text, bool IsUser, bool IsError)> Messages = new();
+    private string UserInput = string.Empty;
+    private bool IsSending = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            var uri = new Uri("http://localhost:11434");
+            ollama = new OllamaApiClient(uri);
+            ollama.SelectedModel = "gemma3:1b"; // Установлена модель
+
+            // Проверка доступности модели
+            var models = await ollama.ListLocalModelsAsync();
+            if (!models.Any(m => m.Name.Contains("gemma3:1b")))
+            {
+                Messages.Add(("Модель gemma3:1b не найдена. Установите её с помощью 'ollama pull gemma3:1b'.", false, true));
+            }
+        }
+        catch (Exception ex)
+        {
+            Messages.Add(($"Ошибка подключения к Ollama: {ex.Message}", false, true));
+        }
+
+        // Загружаем сохраненные сообщения при инициализации
+        await LoadMessages();
+        StateHasChanged();
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (!firstRender)
+        {
+            // Сохраняем сообщения при каждом рендере (кроме первого)
+            await SaveMessages();
+        }
+    }
+
+    private async Task SendMessage()
+    {
+        if (string.IsNullOrWhiteSpace(UserInput) || IsSending)
+            return;
+
+        IsSending = true;
+        Messages.Add((UserInput, true, false));
+        var userMessage = UserInput;
+        UserInput = string.Empty;
+
+        StateHasChanged();
+
+        // Эмуляция системного сообщения через форматированный текст
+        var prompt = "[SYSTEM]: Ты эксперт исключительно по автомобилям. Отвечай ТОЛЬКО на вопросы, связанные с автомобилями (модели, характеристики, ремонт, история и т.д.). Если вопрос не касается автомобилей, НЕ ОТВЕЧАЙ на него, а вместо этого скажи: 'Это вопрос не по теме. Извините, я могу ответить только на вопросы, связанные с автомобилями. Пожалуйста, задайте вопрос о машинах!'.\n\n[USER]: " + userMessage;
+
+        try
+        {
+            string response = string.Empty;
+            await foreach (var stream in ollama.GenerateAsync(prompt))
+            {
+                response += stream.Response ?? string.Empty; // Защита от null в потоке
+            }
+
+            if (string.IsNullOrEmpty(response))
+            {
+                Messages.Add(("Ассистент не ответил. Проверьте подключение к Ollama.", false, true));
+            }
+            else
+            {
+                Messages.Add((response, false, false));
+            }
+        }
+        catch (Exception ex)
+        {
+            Messages.Add(($"Ошибка: {ex.Message}", false, true));
+        }
+        finally
+        {
+            IsSending = false;
+        }
+
+        StateHasChanged();
+    }
+
+    private void ClearChat()
+    {
+        Messages.Clear();
+        StateHasChanged();
+    }
+
+    private async Task SaveMessages()
+    {
+        var messagesJson = System.Text.Json.JsonSerializer.Serialize(Messages);
+        await JS.InvokeVoidAsync("localStorage.setItem", "chatMessages", messagesJson);
+    }
+
+    private async Task LoadMessages()
+    {
+        var messagesJson = await JS.InvokeAsync<string>("localStorage.getItem", "chatMessages");
+        if (!string.IsNullOrEmpty(messagesJson))
+        {
+            Messages = System.Text.Json.JsonSerializer.Deserialize<List<(string Text, bool IsUser, bool IsError)>>(messagesJson) ?? new();
+            // Фильтруем сообщения с null текстом
+            Messages = Messages.Where(m => m.Text != null).ToList();
+            StateHasChanged();
+        }
+    }
+
+    private string FormatMessage(string text)
+    {
+        // Проверка на null и возврат пустой строки, если text null
+        if (string.IsNullOrEmpty(text))
+            return string.Empty;
+
+        return System.Text.RegularExpressions.Regex.Replace(text, @"\*\*(.*?)\*\*", "<b>$1</b>");
+    }
+
+    private void NavigateToHome()
+    {
+        Navigation.NavigateTo("/");
+    }
+}

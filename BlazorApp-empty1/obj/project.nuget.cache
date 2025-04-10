@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Q7VR9EtNUIw=",
+  "dgSpecHash": "MZ13NT2fCWo=",
   "success": true,
   "projectFilePath": "C:\\Users\\anpod\\OneDrive\\Documents\\GitHub\\CARSITE\\BlazorApp-empty1\\BlazorApp_empty1.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,8 @@
     "C:\\Users\\anpod\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.19\\microsoft.aspnetcore.components.webassembly.7.0.19.nupkg.sha512",
     "C:\\Users\\anpod\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\7.0.19\\microsoft.aspnetcore.components.webassembly.devserver.7.0.19.nupkg.sha512",
     "C:\\Users\\anpod\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.19\\microsoft.aspnetcore.metadata.7.0.19.nupkg.sha512",
+    "C:\\Users\\anpod\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.0\\microsoft.bcl.asyncinterfaces.9.0.0.nupkg.sha512",
+    "C:\\Users\\anpod\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\9.3.0-preview.1.25161.3\\microsoft.extensions.ai.abstractions.9.3.0-preview.1.25161.3.nupkg.sha512",
     "C:\\Users\\anpod\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\anpod\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\anpod\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.4\\microsoft.extensions.configuration.binder.7.0.4.nupkg.sha512",
@@ -31,9 +33,10 @@
     "C:\\Users\\anpod\\.nuget\\packages\\microsoft.net.illink.analyzers\\7.0.100-1.23211.1\\microsoft.net.illink.analyzers.7.0.100-1.23211.1.nupkg.sha512",
     "C:\\Users\\anpod\\.nuget\\packages\\microsoft.net.illink.tasks\\7.0.100-1.23211.1\\microsoft.net.illink.tasks.7.0.100-1.23211.1.nupkg.sha512",
     "C:\\Users\\anpod\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.0\\microsoft.net.sdk.webassembly.pack.9.0.0.nupkg.sha512",
+    "C:\\Users\\anpod\\.nuget\\packages\\ollamasharp\\5.1.9\\ollamasharp.5.1.9.nupkg.sha512",
     "C:\\Users\\anpod\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
-    "C:\\Users\\anpod\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\anpod\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\anpod\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\anpod\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512",
     "C:\\Users\\anpod\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.20\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.20.nupkg.sha512"
   ],
   "logs": []
